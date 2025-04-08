@@ -14,7 +14,7 @@ def image_generation(image_prompt: str, width: int = 1024, height: int = 1024) -
     :return:图片的url地址
     """
 
-    return f"https://image.pollinations.ai/prompt/{image_prompt}?width={width}&height={height}&enhance=true&nologo=true&model=flux"
+    return f"![image](https://image.pollinations.ai/prompt/{image_prompt}?width={width}&height={height}&enhance=true&nologo=true&model=flux)"
 
 
 if __name__ == "__main__":
